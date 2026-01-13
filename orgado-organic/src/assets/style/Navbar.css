@@ -7,6 +7,7 @@ font-weight: 500;
     margin-left: 50px;
     margin-top: 5px;
     gap: 130px;
+    cursor: pointer;
     display: flex;
 }
 .logo{

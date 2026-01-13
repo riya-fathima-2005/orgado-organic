@@ -20,7 +20,7 @@ body{
     background-color: rgb(85, 165, 85);
     display: flex;
     margin-top: 10px;
-gap: 700px;
+gap: 600px;
 
     
 }
@@ -40,4 +40,14 @@ margin-left: 180px;
     background-color: rgb(85, 165, 85);
     color: rgb(247, 240, 240);
      border: 0px;
+}
+
+@media screen and (min-width: 375px) {
+  .display{
+    color: white;
+    background-color: rgb(85, 165, 85);
+
+   
+} 
+    
 }

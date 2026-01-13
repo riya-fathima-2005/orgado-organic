@@ -1,0 +1,60 @@
+.name{
+    border: none;
+    height: 50px;
+    width: 250px;
+}
+.namee{
+     border: none;
+    height: 100px;
+    width: 250px; 
+}
+.numberflex{
+    display: flex;
+}
+.gapthree{
+    gap: 40px;
+}
+.Cardprop{
+    margin-left: 10px;
+    font-size: 15px;
+    
+}
+.carddrop{
+    font-size: 14px;
+}
+.card{
+    width: 300px;
+    padding: 40px;
+}
+.cardflex{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 40px;
+}
+.submitbutt{
+    color: white;
+    background-color: rgb(85, 165, 85);
+    border: none;
+    height: 40px;
+    margin-top: 30px;
+    width: 140px;
+    border-radius: 5px;
+     font-family: 'Poppins', sans-serif;
+     transition: 1s;
+}
+
+.submitbutt:hover{
+    color: rgb(118, 175, 118);
+    background-color: white ;
+    border: solid 1px green;
+
+}
+.map{
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+.icocolor{
+    color: green;
+}

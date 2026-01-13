@@ -1,7 +1,7 @@
 import React from "react";
-import "../assets/style/component2.css";
+import "../assets/style/Aboutus.css";
 
-function Component2() {
+function Aboutus() {
   return (
     <div className="display ">
       <div className="Aboutus">
@@ -32,4 +32,4 @@ function Component2() {
   );
 }
 
-export default Component2;
+export default Aboutus;

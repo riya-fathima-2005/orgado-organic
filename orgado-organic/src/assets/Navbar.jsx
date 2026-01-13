@@ -1,7 +1,7 @@
 import React from "react";
-import "../assets/style/component3.css";
+import "../assets/style/Navbar.css";
 import loconame  from "../assets/Img/logo.webp"
-function Component3() {
+function Navbar() {
   return (
     <div>
       <div className="flex1">
@@ -59,4 +59,4 @@ function Component3() {
   );
 }
 
-export default Component3;
+export default Navbar;

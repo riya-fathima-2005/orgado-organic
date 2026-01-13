@@ -1,7 +1,7 @@
-import "../assets/style/component5.css";
+import "../assets/style/Freeshipping.css";
 import React from "react";
 
-function Component5() {
+function Freeshipping() {
   return (
     <div className="total-truck-flex">
       <div className="truck-flex">
@@ -92,4 +92,4 @@ function Component5() {
   );
 }
 
-export default Component5;
+export default Freeshipping;
