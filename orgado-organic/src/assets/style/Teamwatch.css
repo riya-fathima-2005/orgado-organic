@@ -1,0 +1,18 @@
+.watchwid{
+    width: 200px;
+      font-family: Trebuchet MS;
+}
+.center{
+  font-family: Trebuchet MS;
+
+   
+}
+.cntrname{
+    width: 200px;
+    text-align: center;
+}
+.displaycnter{
+    display: flex;
+    gap: 30px;
+    margin-top: 70px;
+}

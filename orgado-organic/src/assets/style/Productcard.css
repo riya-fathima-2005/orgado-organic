@@ -1,0 +1,48 @@
+.cardet1 {
+  border: 1px  rgb(194, 190, 190);
+  width: 400px;
+  height: 300px;
+  padding-left: 30px;
+  padding-top: 80px;
+  background-image: url(C:\Users\DELL\Desktop\RIya\orgado\orgado-organic\src\assets\Img\product-banner-01.jpg);
+  border-radius: 15px;
+}
+.cardet2 {
+  border: 1px  rgb(194, 190, 190);
+  width: 400px;
+  height: 300px;
+  padding-left: 30px;
+  padding-top: 80px;
+  background-image: url(C:\Users\DELL\Desktop\RIya\orgado\orgado-organic\src\assets\Img\product-banner-02.jpg);
+  border-radius: 15px;
+}
+.cardet3 {
+  border: 1px  rgb(194, 190, 190);
+  width: 400px;
+  height: 300px;
+  padding-left: 30px;
+  padding-top: 80px;
+  background-image: url(C:\Users\DELL\Desktop\RIya\orgado\orgado-organic\src\assets\Img\product-banner-03.jpg);
+  border-radius: 15px;
+}
+.shop {
+  border-radius: 40px;
+  border: 1px solid green;
+  font-family: Trebuchet MS;
+  padding: 9px;
+  color: green;
+  font-size: 13px;
+  transition: 0.8s;
+}
+.shop:hover {
+  border-radius: 40px;
+  border: 1px solid green;
+  background-color: rgb(85, 165, 85);
+  color: white;
+}
+.flex123{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 60px;
+}
