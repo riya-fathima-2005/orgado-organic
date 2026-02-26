@@ -1,0 +1,44 @@
+.marleft{
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.gaps input{
+    width: 400px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.inputboxes{
+width: 400px;
+height: 70px;
+ margin-left: 20px;
+margin-top: 20px;
+border-radius: 8px;
+
+}
+.buttt{
+    width: 820px;
+    height: 60px;
+    border-radius: 8px;
+     border: 1px solid gray;
+     margin-left: 20px;
+     margin-top: 30px;
+     background-color: rgb(11, 155, 11);
+     color: white;
+}
+.buttt:hover{
+
+     background-color: white;
+     color: green;
+     transition: 1s;
+}
+.alre{
+   margin-left: 300px;  
+   margin-top: 10px;
+}

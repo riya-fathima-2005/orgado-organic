@@ -1,4 +1,4 @@
-import "../assets/style/Freeshipping.css";
+import "./style/Freeshipping.css";
 import React from "react";
 
 function Freeshipping() {

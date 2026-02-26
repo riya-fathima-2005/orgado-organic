@@ -1,16 +1,16 @@
 import React from "react";
-import "../assets/style/Aboutus.css";
+import "./style/Aboutus.css";
 
 function Aboutus() {
   return (
-    <div className="display ">
+    <div className="display">
       <div className="Aboutus">
-        <div style={{ marginLeft: "50px" }}>About Us</div>
-        <div>My Account</div>
+        <span className="abouttitle">About Us</span>
+        <span  className="abouttitle">My Account</span>
       </div>
       <div className="display1">
         <div>
-          <select className="selectiontool">
+          <select className="selectiontool" name="language">
             <option className="selection">English</option>
             <option className="selection">Hindi</option>
             <option className="selection">Arabic</option>
@@ -20,7 +20,7 @@ function Aboutus() {
         </div>
 
         <div>
-          <select  className="selectiontool">
+          <select className="selectiontool" name="currency">
             <option className="selection">USD</option>
             <option className="selection">EUR</option>
             <option className="selection">JPY</option>

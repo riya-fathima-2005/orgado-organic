@@ -1,0 +1,39 @@
+.inputsignedin{
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid rgb(194, 187, 187);
+    margin-left: 450px;
+    margin-top: 10px;
+    padding-left: 10px;
+
+}
+.formone{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+*{
+    font-family: 'Trebuchet MS';
+    
+}
+
+.bt{
+    margin-left: 450px;
+    margin-top: 30px; 
+    border-radius: 10px;
+    height: 50px;
+    width: 400px;
+    color: white;
+    border: 1px solid ;
+    background-color: rgb(17, 139, 17);
+    transition: 1s ;
+}
+.bt:hover{
+ color: green;
+    border: 1px solid green ;
+    background-color: rgb(235, 240, 235);
+}
+.deco{
+    text-decoration: none;
+    color: white;
+}

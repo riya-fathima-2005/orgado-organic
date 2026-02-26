@@ -1,0 +1,108 @@
+.flexteam{
+    display: flex;
+    gap: 70px;
+    margin-left: 280px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+.flexteam1{
+    display: flex;
+    gap: 70px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+.colorch{
+    font-family: 'Trebuchet MS';
+}
+
+.colorch:hover{
+   color: green;
+}
+
+.product-box {
+  width: 390px;
+  border: 1px solid rgb(180, 178, 178);
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff;
+}
+
+.product-card {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 30px 0;
+
+
+
+}
+.product-card:last-child {
+  border-bottom: none;
+}
+
+.product-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+
+}
+
+
+.product-info h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.price {
+  margin: 4px 0;
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.rating {
+  color: orange;
+  font-size: 14px;
+}
+.popular-container {
+  width: 260px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  background: #fff;
+  padding: 10px;
+}
+
+.popular-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.popular-item:last-child {
+  border-bottom: none;
+}
+
+.popular-item img {
+  width: 70px;
+  height: 60px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.popular-price {
+  color: #2e7d32;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.popular-rating {
+  color: orange;
+  font-size: 14px;
+}
+.nonsliderimg{
+    
+}

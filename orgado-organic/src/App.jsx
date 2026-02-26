@@ -4,13 +4,26 @@ import Home from "./assets/Home";
 import Navbar from "./assets/Navbar";
 import Footer from "./assets/Footer";
 import Contact from "./assets/Contact";
-const App = () => {
+import Signedin from "./assets/Signedin";
+import Ssigned from "./assets/Ssigned";
+import Header from "./assets/Header";
+import Aboutus from "./assets/Aboutus";
+import Shop from "./assets/Shop";
+import Wishlist from "./assets/Wishlist";
+function App  () {
   return (
     <div>
+      <Header/>
+      <Aboutus/>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/signedin' element={<Signedin/>}/>
+        <Route path='/signedup' element={<Ssigned/>}/>
+        <Route path='/shop' element={<Shop/>}/>
+        <Route path="/wishlist" element={<Wishlist />} />
+
       </Routes>
       <Footer />
     </div>

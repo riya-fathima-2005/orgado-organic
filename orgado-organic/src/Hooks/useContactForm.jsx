@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React,{ useState } from 'react'
 
 
 function useContactForm() {
@@ -32,8 +32,8 @@ function useContactForm() {
 
   return {
     namee,
-    email,
     phone,
+    email,
     message,
     onName,
     onEmail,
@@ -42,4 +42,4 @@ function useContactForm() {
     submit,
   };
 }
-export default useContactForm;
+export default useContactForm

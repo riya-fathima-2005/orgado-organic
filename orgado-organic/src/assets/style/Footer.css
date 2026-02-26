@@ -24,11 +24,13 @@ cursor: pointer;
     padding-right: 120px;
     background-color: rgb(226, 231, 236);
 }
-.icons{
-size: 10px;
-color: grey;
+.grey{
+width: 20px;
+color: rgb(182, 173, 173);
 }
-
+.grey:hover{
+background-color: grey;
+}
 
 .icons:hover{
 border: 1px solid green;

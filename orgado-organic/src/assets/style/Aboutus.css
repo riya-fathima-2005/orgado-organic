@@ -11,6 +11,9 @@ color: whitesmoke;
 color: rgb(19, 12, 12);
 }
 
+.abouttitle{
+    margin-left: 40px;
+}
 body{
     margin: 0px;
 }

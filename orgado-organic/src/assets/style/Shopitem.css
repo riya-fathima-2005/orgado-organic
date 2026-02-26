@@ -1,0 +1,16 @@
+.radiowidth{
+    margin-left: 30px;
+    gap: 30px;
+    margin-top: 20px;
+}
+.radiowidth1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.flex3{
+    display: flex;
+    overflow: hidden;
+}
+
+
+
