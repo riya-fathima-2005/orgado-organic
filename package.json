@@ -1,4 +1,13 @@
 {
+  "name": "orgado",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "bootstrap": "^5.3.8",
     "react": "^18.2.0",
