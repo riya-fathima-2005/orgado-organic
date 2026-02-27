@@ -10,6 +10,7 @@ import Header from "./assets/Header";
 import Aboutus from "./assets/Aboutus";
 import Shop from "./assets/Shop";
 import Wishlist from "./assets/Wishlist";
+import Cart from "./assets/Cart";
 function App  () {
   return (
     <div>
@@ -23,6 +24,7 @@ function App  () {
         <Route path='/signedup' element={<Ssigned/>}/>
         <Route path='/shop' element={<Shop/>}/>
         <Route path="/wishlist" element={<Wishlist />} />
+           <Route path="/cart" element={<Cart />} />
 
       </Routes>
       <Footer />
